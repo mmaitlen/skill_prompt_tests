@@ -30,3 +30,6 @@ Always ensure the feature branch is pushed to the remote repository before attem
 - Ensure you end up on the default branch of the repository
 - Finally, inform the user that the task is complete by specifically stating "okie dokie task X is complete and branch Y is cleaned up", where X is a short description of the task and Y is the name of the closed branch
 
+## Agent Memories
+- The user wants all future commits to be made by 'GeminiAgent-BobDog'.
+- The user wants to be reminded to approve PRs before they are merged.
