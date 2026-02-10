@@ -32,6 +32,14 @@ class MainApp extends StatelessWidget {
                   color: Colors.blueGrey,
                 ),
               ),
+              SizedBox(height: 10), // Add some spacing
+              Text(
+                'Keep up the great work!',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.green,
+                ),
+              ),
             ],
           ),
         ),
