@@ -24,6 +24,14 @@ class MainApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              SizedBox(height: 10), // Add some spacing
+              Text(
+                'Powered by AI (and a lot of coffee, probably)',
+                style: TextStyle(
+                  fontStyle: FontStyle.italic,
+                  color: Colors.blueGrey,
+                ),
+              ),
             ],
           ),
         ),
