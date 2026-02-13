@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:skills_prompt_tests/home_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,41 +10,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text('bobdog was here'),
-              SizedBox(height: 20), // Add some spacing
-              Text(
-                'Mission Accomplished!',
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              SizedBox(height: 10), // Add some spacing
-              Text(
-                'Powered by AI (and a lot of coffee, probably)',
-                style: TextStyle(
-                  fontStyle: FontStyle.italic,
-                  color: Colors.blueGrey,
-                ),
-              ),
-              SizedBox(height: 10), // Add some spacing
-              Text(
-                'Keep up the great work!',
-                style: TextStyle(
-                  fontSize: 16,
-                  color: Colors.green,
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
+    return MaterialApp(
+      home: HomePage(), // Navigate to the new HomePage
     );
   }
 }
